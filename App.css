@@ -1,0 +1,147 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10 1000px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.product-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* .cart {
+  margin-left: 20px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 10;
+}
+
+.cart li {
+  margin-bottom: 10px;
+}
+
+.cart button {
+  margin-left: 5px;
+} */
+.cart {
+  margin-left: 50px;
+  background-color: #f4f4f4; /* Background color for the cart section */
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.cart h2 {
+  color: #333; /* Text color for the cart title */
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 10px;
+}
+
+.cart button {
+  margin-left: 5px;
+  background-color: #007bff; /* Background color for buttons in the cart section */
+  color: white; /* Text color for buttons in the cart section */
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #0056b3; /* Hover background color for buttons */
+}
